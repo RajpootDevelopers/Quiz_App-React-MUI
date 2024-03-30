@@ -25,6 +25,20 @@
     flex-direction: column;
     max-width: 40rem;
 }
+/* --clr-rose: #e11d48;
+--clr-indigo: #4f46e5; */
+.start{
+    font-size: var(--size-lg);
+    border: 1px solid ;
+    padding: var(--size-xxs) ;
+    color: var(--clr-rose);
+    border-radius: var(--size-xxs);
+    transition: all .3s ease;
+}
+.start:hover{
+    background-color: var(--clr-indigo);
+    color: black;
+}
 /* xs */
 @media (min-width: 475px){
     .quizImg{

@@ -90,15 +90,13 @@ const Home = ({ name, setName, fetchQuestions }) => {
             <MenuItem value="hard">Hard</MenuItem>
           </TextField>
 
-          <Button
+          <button
             onClick={handleSubmit}
-            varient="contained"
-            color="primary"
-            size="large"
+            className="start"
           >
-            {" "}
+            
             Start Quiz
-          </Button>
+          </button>
         </div>
       </div>
       <div>

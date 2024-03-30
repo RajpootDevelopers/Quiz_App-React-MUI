@@ -39,10 +39,11 @@ const Question = ({ currentQuestion, setCurrentQuestion, questions, options, set
 
 
   const handleQuit = () =>{
-    setCurrentQuestion(0)
-    setScore(0)
-    setSelected(null)
-    setError(false)
+    navigate("/result")
+    // setCurrentQuestion(0)
+    // setScore(0)
+    // setSelected(null)
+    // setError(false)
   }
   
 
