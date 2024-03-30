@@ -14,8 +14,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
   // const history = useHistory();
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    console.log(e);
+  const handleSubmit = () => {
     if (!name || !category || !difficulty) {
       setError(true);
       return;

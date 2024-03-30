@@ -9,7 +9,7 @@ import Question from "../../commponents/Question/Question.jsx";
 const Quiz = ({ name, questions, setQuestions, score, setScore }) => {
   const [options, setOptions] = useState();
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  console.log(questions)
+
 
   useEffect(() => {
     setOptions(
