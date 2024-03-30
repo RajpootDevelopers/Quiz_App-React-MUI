@@ -1,0 +1,44 @@
+
+.footer{
+    text-align: center;
+    font-size: var(--size-xs);
+    align-self: flex-end;
+    position: fixed;
+    /* left: 10; */
+    bottom: 0;
+    width: 100%;
+    padding: var(--size-xxs);
+    /* height: 20px; */
+}
+
+
+
+/* xs */
+@media (min-width: 475px){
+    .footer{
+        font-size: var(--size-xs);
+    }
+}
+
+/* sm */
+@media (min-width: 640px){
+    .footer{
+        font-size: var(--size-sm);
+    }
+}
+
+/* md */
+/* @media (min-width: 768px){} */
+
+/* lg */
+@media (min-width: 1024px){
+    .footer{
+        font-size: var(--size-base);
+    }
+}
+
+/* xlg */
+/* @media (min-width: 1280px){} */
+
+/* 2xl */
+/* @media (min-width: 1536px){} */
