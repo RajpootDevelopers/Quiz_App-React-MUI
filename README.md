@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 [array shuffle](https://flaviocopes.com/how-to-shuffle-array-javascript/) 
+[React Navigation](https://medium.com/@arshguleria1612/upgrade-your-react-navigation-replace-usehistory-with-usenavigate-for-efficient-routing-1708eb7ad672)
